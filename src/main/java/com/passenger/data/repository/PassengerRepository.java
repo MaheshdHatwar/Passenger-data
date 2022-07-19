@@ -1,10 +1,11 @@
 package com.passenger.data.repository;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
+
 
 import com.passenger.data.entities.Passenger;
 
-public interface PassengerRepository extends CrudRepository<Passenger, Integer>{
+public interface PassengerRepository extends JpaRepository<Passenger, Integer>{
 
 	
 }
