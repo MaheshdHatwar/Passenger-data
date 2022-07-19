@@ -12,5 +12,4 @@ public interface PassengerService {
 	Optional get(Integer id);
 	
 	void delete(Integer id);
-
 }

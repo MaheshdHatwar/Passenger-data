@@ -49,7 +49,7 @@ public class PassengerController {
 		}
 		return new ResponseEntity<Passenger>(HttpStatus.NOT_FOUND);
 	}
-	
+		
 	@PostMapping("/passengers")
 	public ResponseEntity<Passenger> savePasssenger(@RequestBody Passenger passenger) {
 		try {

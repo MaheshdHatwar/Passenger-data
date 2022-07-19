@@ -4,6 +4,10 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Sort.Direction;
+
+//import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import com.passenger.data.entities.Passenger;
 import com.passenger.data.repository.PassengerRepository;
@@ -50,6 +54,11 @@ public class PassengerServiceImpl implements PassengerService {
 			passengerRepository.delete((Passenger) get(id).get());
 		}
 	}
+
+
+
+	
+	
 }
 
 
